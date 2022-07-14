@@ -10,7 +10,7 @@
 }
 
 body {
-    margin-top: 5rem;
+    margin-top: 6rem;
     background-color: var(--body-background-color);
 }
 
@@ -98,7 +98,7 @@ body {
 
 .banner-two .layout-above {
     position: absolute;
-    bottom: 47%;
+    bottom: 46%;
     right: 4%;
 }
 
@@ -106,7 +106,7 @@ body {
     color: var(--color-white);
     font-size: 2.2rem;
     margin-bottom: 1rem;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .banner-two button {

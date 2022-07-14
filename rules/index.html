@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://component-lib-mayuresh.netlify.app/components/zippy-ui.css" />
+    <script src="https://kit.fontawesome.com/de30ca7aea.js" crossorigin="anonymous"></script>
+    <title>Quiz</title>
+</head>
+
+<body>
+    <header>
+        <!-- Navigation Bar -->
+        <nav class="nav-box-bar desktop-nav">
+            <div id="nav-section-bar">
+                <div id="logo-bar">
+                    <a>
+                        <p class="logo-text"><span>Quiz</span>Viz</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="login-nav-box">
+                <div id="social-links-bar">
+                    <button class="no-bg hov user-icon">
+                        <i class="fa-solid fa-user"></i>
+                    </button>
+                    <button class="no-bg hov btn-solid-primary">Login</button>
+                </div>
+            </div>
+        </nav>
+        <!-- End of Navigation bar -->
+    </header>
+
+    <section class="rules-section">
+        <p class="heading">You have choosen to Games topic for Quiz</p>
+        <p class="heading">Before starting read the instructions carefully and proceed.</p>
+        <div class="auth-box-login">
+            <h4 id="h4">Rules</h4>
+            <form class="validate">
+                <hr>
+                <label class="label">5 Questions to answer</label>
+                <label class="label">5 points for correct answer</label>
+                <label class="label">No negative marking</label>
+                <label class="label">70% score required to clear quiz</label>
+                <label class="label">5 Minutes to Answer Questions</label>
+                <hr>
+            </form>
+            <button id="proceed-btn" type="button" class="btn-submit btn-solid-primary">Proceed</button>
+        </div>
+    </section>
+
+    <div class="modal-container">
+        <div class="modal-box">
+            <div class="modal-content">
+                <div class="modal-heading">Note</div>
+                <div class="modal-description">Make sure you have read all rules before starting the Quiz</div>
+                <div class="modal-buttons">
+                    <button class="btn-solid-secondary btn-modal-close">Read Again</button>
+                    <button class="btn-solid-primary goto-quiz-btn">Goto Quiz!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
